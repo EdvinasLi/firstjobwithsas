@@ -1,0 +1,168 @@
+.trusted-by-top-brands {
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+	h1 {
+		font-family: $font;
+		font-size: 21.1296px;
+	}
+	.logo {
+		height: 100px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		gap: 10%;
+		img {
+			max-height: 50%;
+		}
+	}
+}
+.topbrands-head,
+.howcollab-head {
+	display: flex;
+	justify-content: center;
+	margin-top: 5%;
+	h1 {
+		font-family: $font;
+		font-size: 21.1296px;
+	}
+}
+.helpmain {
+	width: 100%;
+	height: 400px;
+	background-color: orange;
+	margin: 0 auto;
+	display: flex;
+	.help-left {
+		width: 50%;
+		height: 100%;
+		background-color: white;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.text-main {
+		background-color: white;
+		width: 300px;
+		height: 296px;
+		display: flex;
+		flex-direction: column;
+		gap: 5px;
+		margin-top: 19px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		.textmain1,
+		.textmain2,
+		.textmain3,
+		.textmain4 {
+			background-color: #f2f2f2;
+		}
+		p,
+		b {
+			font-size: 8px;
+			font-family: $font;
+			color: black;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+	.supervisor {
+		width: 280.85px;
+		height: 26.85px;
+		display: flex;
+		background: #ffffff;
+		box-shadow: 0px 3.9618px 5.2824px rgba(0, 0, 0, 0.09);
+		border-radius: 2.6412px;
+		.sitesup {
+			background-color: white;
+			width: 50%;
+			justify-content: center;
+			align-items: center;
+			height: 26px;
+			display: flex;
+			p {
+				font-size: 8px;
+				font-family: $font;
+				color: black;
+			}
+		}
+	}
+
+	.vendor {
+		width: 130.74px;
+		height: 23.33px;
+		background: #60267f;
+		border: 1.64534px solid #9a54bc;
+		border-radius: 2.46801px;
+		align-items: center;
+		display: flex;
+		justify-content: center;
+		p {
+			color: white;
+			font-family: $font;
+			font-size: 8px;
+		}
+	}
+}
+
+.help-right {
+	width: 50%;
+	height: 100%;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.textmain1 {
+	background-color: grey;
+	width: 264.12px;
+	height: 79.24px;
+	margin-top: 10px;
+	text-align: center;
+	display: flex;
+}
+.textmain2,
+.textmain3,
+.textmain4 {
+	width: 264.12px;
+	height: 40.06px;
+	background-color: grey;
+}
+.fastestsafest {
+	width: 100%;
+	height: 400px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	h1 {
+		font-family: $font;
+		font-size: 22px;
+		color: black;
+		display: flex;
+		flex-direction: column;
+
+		align-items: center;
+	}
+	p {
+		font-family: $font;
+		color: black;
+		font-size: 11px;
+		margin-top: 20px;
+	}
+}
+.fasttext {
+	width: 600px;
+	height: 200px;
+}
+.fastvideo {
+	height: 100%;
+	height: 300px;
+}

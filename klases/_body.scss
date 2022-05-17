@@ -1,0 +1,112 @@
+$font: 'Roboto', sans-serif;
+$purple: #9a54bc;
+@mixin reset-list {
+	background-color: white;
+	color: #9a54bc;
+	-webkit-box-shadow: 0px 2.201px 2.201px rgba(0, 0, 0, 0.06);
+	box-shadow: 0px 2.201px 2.201px rgba(0, 0, 0, 0.06);
+	border: #9a54bc 1px solid;
+	border-radius: 4px 4px 4px 4px;
+}
+
+.easy-column {
+	font-family: $font;
+	font-size: 28.1728px;
+	color: black;
+	width: 100%;
+	height: 200px;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	.easy-solution-text {
+		color: black;
+		font-size: 20px;
+		width: 100%;
+		height: 60px;
+		text-align: center;
+		margin-top: 15px;
+	}
+	p {
+		font-family: $font;
+
+		font-size: 28.1728px;
+		color: #2b0236;
+	}
+}
+
+.request-demo-button {
+	width: 112px;
+	height: 32px;
+
+	flex-direction: column;
+	display: flex;
+	margin-top: 20px;
+	button {
+		background-color: #9a54bc;
+		box-shadow: 0px 4.402px 8.804px rgba(0, 0, 0, 0.1);
+		border-radius: 2.96422px;
+		width: 112.25px;
+		height: 32.57px;
+		border: 1.48211px solid #9a54bc;
+		box-shadow: 0px 4.402px 8.804px rgba(0, 0, 0, 0.1);
+		border-radius: 2.96422px;
+	}
+}
+.phonesection {
+	width: 400px;
+	height: 400px;
+	border-radius: 50%;
+	background-color: #f5e1ff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	.explore-bttn {
+		position: relative;
+		width: 100px;
+		height: 100px;
+		button {
+			top: 180px;
+			left: -6px;
+			position: absolute;
+			width: 112.25px;
+			height: 26.85px;
+			@include reset-list();
+		}
+	}
+}
+.phonesectionback {
+	display: flex;
+	justify-content: center;
+	position: relative;
+
+	.phonesectionlight {
+		width: 236.83px;
+		height: 236.83px;
+		background-color: rgba(236, 218, 246, 0.8);
+		border-radius: 50%;
+		position: absolute;
+		top: 10%;
+		display: flex;
+		justify-content: center;
+	}
+}
+
+.phoneframe {
+	width: 121.94px;
+	height: 236.23px;
+	background-color: #f5e1ff;
+	border: 1.3206px solid #9a54bc;
+	position: absolute;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px 6px 6px 6px;
+	display: flex;
+	p {
+		font-size: 27.3925px;
+		color: $purple;
+		font-family: $font;
+	}
+}

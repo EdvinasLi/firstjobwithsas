@@ -1,0 +1,106 @@
+.startwithback {
+  width: 100%;
+  height: 44px;
+  background-color: aquamarine;
+}
+
+.startwithback h1 {
+  font-size: 21.1296px;
+  color: black;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.startwithback p {
+  color: #a79d9d;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.switchback {
+  width: 200px;
+  height: 100%;
+  background-color: green;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.switchback .switchbttn {
+  height: 30px;
+  background-color: chocolate;
+  width: 150px;
+}
+
+.switchbackground {
+  height: 300px;
+  width: 100%;
+  background-color: blueviolet;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 22px;
+  height: 13px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 6px;
+  width: 6px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  -webkit-box-shadow: 0 0 1px #2196f3;
+          box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(5px);
+  transform: translateX(5px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+/*# sourceMappingURL=startwithcollabs.css.map */
